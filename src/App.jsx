@@ -15,11 +15,11 @@ function App() {
     return (
         <div className={`App ${darkMode ? 'dark-mode' : 'light-mode'} `}>
             <h1>PeruseLab</h1>
+            <img className={"logo"} src='src/assets/ll.png'  onClick={handleClick} alt={"peruse Logo"}>
+            </img>
             <button onClick={handleThemeToggle}>
                 {darkMode ? 'Light Mode' : 'Dark Mode'}
             </button>
-            <img className={"logo"} src='src/assets/Adamentane.svg' onClick={handleClick} alt={"peruse Logo"}>
-            </img>
         </div>
 
     );
